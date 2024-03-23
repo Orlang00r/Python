@@ -17,6 +17,30 @@
 #     print ('no')
 # elif c%a==0 or c%b==0:
 #     print ('yes')
-# else: 
+# else:
 #     print ('no')
 
+
+# coins = [0, 0, 0, 0, 0, 0, 0]
+# orel = 0
+# all = len(coins)
+# for i in range (all):
+#     if coins[i] == 1: orel +=1
+# reshka = all-orel
+# if orel>reshka: print (reshka)
+# else: print (orel)
+
+
+# s = 4
+# p = 4
+# x = 0
+# for y in range (1000):
+#     for x in range (1000):
+#         if (x + y) == s and (x * y) == p and x <= y: print (x,y)
+
+
+# n = 16
+# i = 0
+# while 2**i <= n:
+#     print(2**i)
+#     i += 1
